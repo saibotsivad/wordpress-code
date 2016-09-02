@@ -1,0 +1,125 @@
+/*
+Theme Name: THEME NAME
+Theme URI: http://SITE.com/
+Description: YOUR DESCRIPTION
+Version: 0.1
+Author: AUTHOR
+Author URI: http://SITE.com
+Tags: AWESOME, TAGS, GO, HERE
+
+Theme files developed by http://tobiaslabs.com
+Core HTML design done by http://matthewjamestaylor.com/
+
+*/
+
+/* General styles */
+body {
+	margin:0;
+	padding:0;
+	border:0;		/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;	/* Minimum width of layout - remove line if not required */
+				/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+a {
+	color:#369;
+}
+a:hover {
+	color:#fff;
+	background:#369;
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+img {
+	margin:10px 0 5px;
+}
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#header {
+	border-bottom:1px solid #000;
+}
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 10px 15px;
+	margin:0;
+}
+/* column container */
+#mask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+	background:#fff;
+}
+#colmid {
+	float:left;
+	width:200%;
+	position:relative;
+	left:50%;
+	margin-left:-100px;
+	background:#f6f;    	/* Centre column background colour */
+}
+#colright {
+	float:left;
+	width:100%;
+	position:relative;
+	left:200px;         	/* Left column width + right column width */
+	background:#fff;    	/* Left column background colour */
+}
+#col1wrap {
+	float:left;
+	width:25%;
+	position:relative;
+	right:25%;
+}
+#col1 {
+	margin:0 15px 0 115px;
+	position:relative;
+	right:200px;
+	overflow:hidden;
+}
+#col2wrap {
+	float:left;
+	width:25%;
+	position:relative;
+	right:25%;
+}
+#col2 {
+	margin:0 15px 0 115px;
+	position:relative;
+	right:100px;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:170px;        	/* Width of right column content (right column width minus left and right padding) */
+	margin-left:-185px;  	/* Width of right column right-hand padding + left column left and right padding */
+	position:relative;
+	right:50%;
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}

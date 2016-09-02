@@ -1,0 +1,3 @@
+<?php
+	// the footer, obviously
+?>

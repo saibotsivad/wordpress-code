@@ -1,0 +1,63 @@
+/*
+Theme Name: Terminal Linux
+Theme URI: http://davistobias.com/linux
+Description: Simple theme to show terminal code and key presses correctly, shows up nicely on text-based browsers.
+Author: Tobias Davis
+Author URI: http://davistobias.com
+Template: clean-home
+Version: 0.1
+*/
+
+/*
+The original theme, "Clean Home" comes from: http://midmodesign.com/
+*/
+
+@import url("../clean-home/style.css");
+
+code {
+background-color:#FFC8C1;
+font-family: Courier New, Courier;
+}
+key {
+background-color:#CADD99;
+font-family: Courier New, Courier;
+}
+#blurb {
+font-family:Georgia;
+height:auto;
+border-bottom:1px dotted #ccc;
+width:100%;
+float:left;
+padding: 0;
+font-size:32px;
+font-weight:400;
+line-height:120%;
+}
+#blurb:hover {
+color:#000;
+}
+.post h2 {
+font-size:16px;
+font-weight:normal;
+}
+.excerpt {
+margin: 0 30px 0 30px;
+color:#666;
+border-left:5px solid #777;
+padding-left:20px;
+}
+.post h3 {
+font-family:Georgia;
+font-size:16px;
+margin:12px 0 10px 0;
+font-weight:normal;
+}
+#nav {
+float:right;
+width:auto;
+padding:45px 0 0;
+}
+#nav input {
+border:1px solid #aaa;
+font-size:18px;
+}

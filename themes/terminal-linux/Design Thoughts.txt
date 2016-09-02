@@ -1,0 +1,31 @@
+What I should do is use the Wordpress excerpts thing to do the following:
+1) When you do a search, show just the excerpt (requires writing GOOD excerpts!)
+2) When you go to a page, show the excerpt at the top of the page, as a sort of "header" (the current theme "Clean Home" has the "blurb" section, which I disabled, but it will need some php modding to get this idea to work)
+
+I'm not sure what to do about categories, if they would be useful or not. Maybe there should be a "News" feed that has news about the site, and a "Instructions" feed that shows how to do something. Something I was thinking about is to have a page which lists where common files are, like the menu.lst for grub boot.
+
+And should I even do "tags"?
+
+I would also like the search bar to be positioned down, at the same level as the tagline text, and then formatted so that it looks less web1.0ish.
+
+The comments input is kind of imposing feeling, I think. I don't like the idea of having the email required. Should it be? And comments display a big number on the side, that is pretty neat I guess, but maybe it should be removed? Overall I am still not satisfied with the comments section.
+
+On each post it has a list "Author: Tobias | Posted: some day | etcetera" but if I am going to be the only author than there's no need for that, and if I don't use categories there's no need for that, and also I don't really see the need for showing a number of comments, I think it should say "Read/Leave Comments" or something simple like that. Also, I wonder if it could be made that the posted date could basically follow right after the post title text?
+
+Also: In the "blurb" section, or somewhere at the top of each post, and maybe at the top of the main page, there needs to be a thing that says something like "This is shell code, and these are keys to press." If there are more colors they should be listed as well.
+
+Need to finish updating the CSS "code" and "key" markup so that the text looks more like console text.
+
+The guy that wrote thie theme, on his personal blog, has a thing where it displays full code, like python code, for example, and does all the cool color highlighting. You should figure out how that is done.
+
+------------
+
+Design:
+
+On main page, show list of excerpts of recent posts, show: Post title, "post date", "tags"
+On search result page, show list of excerpts, show: Post title, "post date", "tags"
+On post page, show full post, post title, post date, author, tags
+
+Only post page show excerpt of post in blurb, all others do not show blurb (if no excerpt, do not show?)
+
+On "page"s, show post title

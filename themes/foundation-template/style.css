@@ -1,0 +1,25 @@
+/*
+Theme Name: Foundation Template
+Theme URI: http://www.tobiaslabs.com/category/wordpress/foundationtemplate/
+Description: A theme made to make starting a new theme easier.
+Author: Tobias Davis
+Author URI: http://davistobias.com
+Version: 1.0
+Tags:
+*/
+
+/* These are the tags that come preloaded */
+div#header{
+}
+div#sidebar{
+}
+div#footer{
+}
+div#comments{
+}
+div.block{
+}
+div.post{
+}
+div.content{
+}

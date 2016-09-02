@@ -1,0 +1,109 @@
+/*
+
+Theme Name: THEME NAME
+Theme URI: http://SITE.com/
+Description: YOUR DESCRIPTION
+Version: 0.1
+Author: AUTHOR
+Author URI: http://SITE.com
+Tags: AWESOME, TAGS, GO, HERE
+
+Theme files developed by http://tobiaslabs.com
+Core HTML design done by http://matthewjamestaylor.com/
+
+*/
+
+body {
+	border:0;
+}
+* {
+	margin:0;
+	padding:0;
+}
+h2 {
+	padding:.2em 0 0 0;
+	font-size:1.4em;
+}
+h3 {
+	padding:1em 0 0 0;
+	font-size:1.2em;
+}
+p {
+	padding:.5em 0 0 0;
+}
+ul li {
+	margin-left:2em;
+}
+#header {
+	padding:10px 20px;
+	background:#000;
+	color:#fff;
+}
+#wrapper {
+	clear:left;
+	float:left;
+	width:100%;
+	background:#f4f4f4;
+	padding-bottom:20px;
+}
+#box1wrap {
+	float:left;
+	width:440px;
+	margin-top:20px;
+}
+#box1 {
+	float:right;
+	width:420px;
+	height:820px;
+	background:#fff;
+}
+#box1pad {
+	position:relative;
+	right:5px;
+	float:right;
+	width:410px;
+	overflow:hidden;
+}
+#box2wrap {
+	float:left;
+	width:320px;
+	height:820px;
+	margin-top:20px;
+}
+#box2 {
+	float:right;
+	width:300px;
+	height:820px;
+	background:#fff;
+	padding-bottom:5px;
+}
+#box2pad {
+	position:relative;
+	right:5px;
+	float:right;
+	width:290px;
+	overflow:hidden;
+}
+.box3wrap {
+	float:left;
+	width:220px;
+	margin-top:20px;
+}
+.box3 {
+	float:right;
+	width:200px;
+	height:400px;
+	background:#fff;
+	padding-bottom:5px;
+}
+.box3pad {
+	position:relative;
+	right:5px;
+	float:right;
+	width:190px;
+	overflow:hidden;
+}
+#footer {
+	clear:left;
+	padding:10px 20px;
+}
