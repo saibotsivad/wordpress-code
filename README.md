@@ -77,4 +77,4 @@ Go crazy with it.
 
 Make something awesome, and make lots of money in the process!
 
-**From me to you with <3**
+***From me to you with ♥***
